@@ -21,8 +21,20 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
+```
+q = []
+n = int(input())
+for i in range(n):
+s = input()
+q.append(s)
+q.pop()
+q.pop()
+print(q)
+```
 
 ### Output:
+<img width="697" height="246" alt="image" src="https://github.com/user-attachments/assets/72a2ee3c-de15-4b92-9d42-3b10a9f52371" />
 
 ## Result:
+Thus, the python program that remove two string values from the rear end of
+the list is executed successfully.
